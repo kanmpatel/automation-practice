@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="regression test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="25.741">
+  <properties />
+  
+  
+            <testcase name="verifyTheErrorMessageWithInValidCredentials" time="2.412" classname="com.automation.testsuits.SignInPageTest" />
+                <testcase name="userShouldNavigateToSignInPageSuccessFully" time="1.211" classname="com.automation.testsuits.SignInPageTest" />
+                <testcase name="verifyThatUserShouldLogOutSuccessFully" time="12.654" classname="com.automation.testsuits.SignInPageTest" />
+                <testcase name="verifyTheErrorMessageWithInValidCredentials" time="2.021" classname="com.automation.testsuits.SignInPageTest" />
+                <testcase name="verifyTheErrorMessageWithInValidCredentials" time="2.452" classname="com.automation.testsuits.SignInPageTest" />
+                <testcase name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" time="3.007" classname="com.automation.testsuits.SignInPageTest" />
+                <testcase name="verifyTheErrorMessageWithInValidCredentials" time="1.984" classname="com.automation.testsuits.SignInPageTest" />
+      
+</testsuite>

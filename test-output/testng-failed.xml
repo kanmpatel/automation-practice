@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sanity Suite]">
+  <listeners>
+    <listener class-name="com.automation.customlisteners.CustomeListeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="sanity test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.automation.testsuits.WomenCategoryPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyUserShouldNavigateToWomenCategoryPageSuccessfully"/>
+          <include name="tearDown"/>
+          <include name="inIt"/>
+        </methods>
+      </class> <!-- com.automation.testsuits.WomenCategoryPageTest -->
+      <class name="com.automation.testsuits.CreatAccountPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyThatUserShouldCreateAccountSuccessfully"/>
+          <include name="tearDown"/>
+          <include name="inIt"/>
+        </methods>
+      </class> <!-- com.automation.testsuits.CreatAccountPageTest -->
+    </classes>
+  </test> <!-- sanity test(failed) -->
+</suite> <!-- Failed suite [Sanity Suite] -->
